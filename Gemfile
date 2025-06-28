@@ -12,10 +12,10 @@ gem 'activesupport', '>= 3.0'
 # Include everything needed to run rake, tests, features, etc.
 group :development do
   gem 'rspec'
-  gem "shoulda", ">= 0"
+  gem "shoulda", ">= 3.6.0"
   gem "rdoc", "~> 3.12"
   gem "bundler", "~> 1.0"
-  gem "juwelier", "~> 2.1.0"
+  gem "juwelier", "~> 2.2.1"
   gem "simplecov", ">= 0"
   gem 'webmock'
 end
