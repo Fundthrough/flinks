@@ -6,13 +6,13 @@ source "https://rubygems.org"
 gem 'http', '~> 3.0'
 gem 'dry-validation', '~> 0.11'
 gem 'dry-initializer', '~> 2.4'
-gem 'activesupport', '>= 3.0'
+gem 'activesupport', '>= 7.2.3.1'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
   gem 'rspec'
-  gem "shoulda", ">= 0"
+  gem "shoulda", ">= 3.6.0"
   gem "rdoc", "~> 3.12"
   gem "bundler", "~> 1.0"
   gem "juwelier", "~> 2.1.0"
