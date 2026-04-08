@@ -3,7 +3,7 @@ source "https://rubygems.org"
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
-gem 'http', '~> 3.0'
+gem 'http', '~> 3.1', '>= 3.1.0'
 gem 'dry-validation', '~> 0.11'
 gem 'dry-initializer', '~> 2.4'
 gem 'activesupport', '>= 3.0'
@@ -15,7 +15,7 @@ group :development do
   gem "shoulda", ">= 0"
   gem "rdoc", "~> 3.12"
   gem "bundler", "~> 1.0"
-  gem "juwelier", "~> 2.1.0"
+  gem "juwelier", "~> 2.2.1"
   gem "simplecov", ">= 0"
-  gem 'webmock'
+  gem 'webmock', '>= 3.4.0'
 end
